@@ -1,0 +1,243 @@
+<!-- WORKS SECTION ############################################### -->
+
+<!-- Title /-->
+
+
+    <div class="row">
+    
+      <div class="twelve columns">
+      
+        <h3>Recent Lessons</h3>
+        
+      </div>
+    
+    </div>
+
+
+<!-- Grid of Works /-->
+
+<section id="works">
+
+
+	<!-- ROW -->
+
+
+	    <div id="projects_grid" class="row" >
+
+
+	    <!-- DATA FILER -->
+	    
+        <ul class="filter">
+          <li><a class="active" href="#" data-filter="*">All</a></li>
+         <li><a href="#" data-filter=".print">History</a></li>
+          <li><a href="#" data-filter=".webdesign">Arts</a></li>
+          <li><a href="#" data-filter=".video">Geography</a></li>
+          <li><a href="#" data-filter=".math">Math</a></li>
+        </ul>
+
+        
+        <ul class="items three_up tiles centered">
+        
+        <!-- PHOTO -->
+        <!-- <a onclick="$('#portfolio1').slideDown(); $('#portfolio2, #portfolio3, #portfolio4, #portfolio5, #portfolio6').slideUp(); $('html, body').animate({scrollTop: $('#portfolio_detail').offset().top }, 800);"> -->
+        
+          <li class="item webdesign"><a onclick="window.open('http://us3.campaign-archive2.com/?u=e2d626c81f0fe3c2afda25af2&id=c29d3cf484');"><img src="/img/donquixote.png" alt="Literature" >
+            <div>
+              <h5>Arts</h5>
+              <span>Once per week, a lesson covering world literature, art throughout history, and architecture.</span>
+            </div>
+            </a> </li>
+           
+        <!-- PHOTO -->  
+            
+          <li class="item print"><a onclick="window.open('http://us3.campaign-archive1.com/?u=e2d626c81f0fe3c2afda25af2&id=943353edcc');"><img src="/img/momdancing.png" alt="EXEMPLE" >
+            <div>
+              <h5>History</h5>
+              <span>Once per week, review prehistory, ancient civilizations, Classical Asia, the Renaissance, and the world since 1945.</span>
+            </div>
+            </a> </li>
+        
+        <!-- PHOTO -->  
+            
+          <li class="item math"><a onclick="window.open('http://us3.campaign-archive1.com/?u=e2d626c81f0fe3c2afda25af2&id=018263255e');"><img src="/img/linearequations.png" alt="EXEMPLE" >
+            <div>
+              <h5>Math</h5>
+              <span>Lessons about algebra, geometry, trigonometry, statistics, or calculus, complete with concepts and examples.</span>
+            </div>
+            </a> </li>
+
+
+        <!-- PHOTO -->
+            
+          <li class="item video"><a onclick="window.open('http://us3.campaign-archive2.com/?u=e2d626c81f0fe3c2afda25af2&id=76faee7246');"><img src="/img/saudiarabia.png" alt="EXEMPLE" >
+            <div>
+              <h5>Geography</h5>
+              <span>A different country each week: identify each country on the map, and retain a few main ideas about each.  </span>
+            </div>
+            </a> </li>
+        
+       <!-- PHOTO -->
+            
+          <li class="item math"><a onclick="http://us3.campaign-archive1.com/?u=e2d626c81f0fe3c2afda25af2&id=346b084041');"><img src="/img/earth.png" alt="EXEMPLE" >
+            <div>
+              <h5>Science</h5>
+              <span>Once per week, the science lessons will cover the basics of earth science, biology, chemistry, physics, and technology. </span>
+            </div>
+            </a> </li>
+            
+       <!-- PHOTO -->
+            
+          <li class="item print"><a onclick="window.open('http://us3.campaign-archive2.com/?u=e2d626c81f0fe3c2afda25af2&id=b034c6bc96');"><img src="/img/sunni.png" alt="EXEMPLE" >
+            <div>
+              <h5>Current</h5>
+              <span>A summary of a current event: an understading of the Syria conflict, an explanation of ObamaCare, or your suggestion.</span>
+            </div>
+            </a> </li>
+            
+        </ul>
+	
+		</div>
+
+<!-- PORTFOLIO DETAIL CONTAINER -->
+
+<div id="portfolio_detail">
+
+
+	<!-- PORTFOLIO DETAIL -->
+
+    <div id="portfolio1" class="row slide_portfolio">
+    
+    	<div class="seven columns centered">
+    	
+	    		<img class="closeit" src="img/close.png" alt="Close Project" onclick="$('#portfolio1').slideUp(); $('html, body').animate({scrollTop: $('#works').offset().top -70 }, 800);">
+	    		
+	    		<h3>History 1</h3>
+	    		
+	    		<p>Bacon ipsum dolor sit amet shank tri-tip pig, short loin pork belly boudin ground round flank sirloin bresaola filet mignon sausage beef ribs kielbasa. flow freely, we've created a studio where we can not only work but also have fun and learn.</p>
+
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+	    		
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+    
+   		</div>
+   		
+    </div>
+
+	
+	<!-- PORTFOLIO DETAIL -->
+
+
+    <div id="portfolio2" class="row slide_portfolio">
+    
+    	<div class="seven columns centered">
+    	
+	    		<img class="closeit" src="img/close.png" alt="Close Project" onclick="$('#portfolio2').slideUp(); $('html, body').animate({scrollTop: $('#works').offset().top -70 }, 800);">
+	    		
+	    		<h3>History 2</h3>
+	    		
+	    		<p>Bacon ipsum dolor sit amet shank tri-tip pig, short loin pork belly boudin ground round flank sirloin bresaola filet mignon sausage beef ribs kielbasa. flow freely, we've created a studio where we can not only work but also have fun and learn.</p>
+
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+	    		
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+    
+   		</div>
+   		
+    </div>
+
+
+	<!-- PORTFOLIO DETAIL -->
+
+
+    <div id="portfolio3" class="row slide_portfolio">
+    
+    	<div class="seven columns centered">
+    	
+	    		<img class="closeit" src="img/close.png" alt="Close Project" onclick="$('#portfolio3').slideUp(); $('html, body').animate({scrollTop: $('#works').offset().top -70 }, 800);">
+	    		
+	    		<h3>FLAT STUDIO</h3>
+	    		
+	    		<p>Bacon ipsum dolor sit amet shank tri-tip pig, short loin pork belly boudin ground round flank sirloin bresaola filet mignon sausage beef ribs kielbasa. flow freely, we've created a studio where we can not only work but also have fun and learn.</p>
+
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+	    		
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+    
+   		</div>
+   		
+    </div>
+
+
+	<!-- PORTFOLIO DETAIL -->
+
+
+    <div id="portfolio4" class="row slide_portfolio">
+    
+    	<div class="seven columns centered">
+    	
+	    		<img class="closeit" src="img/close.png" alt="Close Project" onclick="$('#portfolio4').slideUp(); $('html, body').animate({scrollTop: $('#works').offset().top -70 }, 800);">
+	    		
+	    		<h3>FLAT STUDIO</h3>
+	    		
+	    		<p>Bacon ipsum dolor sit amet shank tri-tip pig, short loin pork belly boudin ground round flank sirloin bresaola filet mignon sausage beef ribs kielbasa. flow freely, we've created a studio where we can not only work but also have fun and learn.</p>
+
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+	    		
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+    
+   		</div>
+
+    </div>
+
+
+	<!-- PORTFOLIO DETAIL -->
+
+
+    <div id="portfolio5" class="row slide_portfolio">
+    
+    	<div class="seven columns centered">
+    	
+	    		<img class="closeit" src="img/close.png" alt="Close Project" onclick="$('#portfolio5').slideUp(); $('html, body').animate({scrollTop: $('#works').offset().top -70 }, 800);">
+	    		
+	    		<h3>FLAT STUDIO</h3>
+	    		
+	    		<p>Bacon ipsum dolor sit amet shank tri-tip pig, short loin pork belly boudin ground round flank sirloin bresaola filet mignon sausage beef ribs kielbasa. flow freely, we've created a studio where we can not only work but also have fun and learn.</p>
+
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+	    		
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+    
+   		</div>
+   		
+    </div>
+
+	<!-- PORTFOLIO DETAIL -->
+
+
+    <div id="portfolio6" class="row slide_portfolio">
+    
+    	<div class="seven columns centered">
+    	
+	    		<img class="closeit" src="img/close.png" alt="Close Project" onclick="$('#portfolio6').slideUp(); $('html, body').animate({scrollTop: $('#works').offset().top -70 }, 800);">
+	    		
+	    		<h3>FLAT STUDIO</h3>
+	    		
+	    		<p>Bacon ipsum dolor sit amet shank tri-tip pig, short loin pork belly boudin ground round flank sirloin bresaola filet mignon sausage beef ribs kielbasa. flow freely, we've created a studio where we can not only work but also have fun and learn.</p>
+
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+	    		
+	    		<img src="http://placehold.it/700x700" alt="EXEMPLE">
+    
+   		</div>
+   		
+    </div>
+
+</div> 	<!-- END PORTFOLIO DETAIL CONTAINER -->
+
+
+</section>
+
+
+<!-- END WORKS SECTION ############################################### -->
+
+

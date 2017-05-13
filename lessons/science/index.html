@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>Sneaky Smart - get smarter checking twitter</title>
+<meta name="Description" content="Things you should have learned in high school.">
+<meta name="Keywords" content="adult learning, high school, fun, lessons, review, education">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="icon" href="./img/ssfavicon.png" type="image/x-icon" />
+
+  
+  
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif}
+body {font-size:16px;}
+
+</style>
+<body>
+
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-light-grey w3-animate-left w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold" id="mySidenav"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding-xlarge w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px">Close Menu</a>
+  <br/>
+  <div class="w3-container w3-hide-small w3-hide-medium">
+    <h3 class="w3-padding-18 w3-text-red"><a href="http://sneakysmart.co">Home</a></h3>
+  </div>
+  <br class="w3-hide-large"/>
+  <a class="w3-hide-large  w3-text-red w3-padding " href="/" style=""> Home</a>
+  <a class="  " href="/lessons/geography" style=""> geography</a>
+  <a class="   " href="/lessons/history" style=""> history</a>
+  <a class="   " href="/lessons/math" style=""> math</a>
+  <a class="  w3-grey  " href="/lessons/science" style=""> science</a>
+  <a class="    " href="/lessons/arts" style=""> arts</a>
+  <br/>
+
+  <a href="#timeline" onclick="w3_close()" class="w3-padding w3-hover-white">Geologic Timeline</a> 
+  <a href="#earth1" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 1 - History of Earth p 1</a> 
+  <a href="#earth2" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 2 - History of Earth p 2 </a> 
+  <a href="#earth3" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 3 - History of Earth p 3 </a> 
+  <a href="#earth4" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 4 - History of Earth p 4 </a> 
+  <a href="#mesozoic" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 5 - Mesozoic Era </a> 
+  <a href="#cenozoic" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 6 - Cenozoic Era </a> 
+  <a href="#platetectonics" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 7 - Plate Tectonics </a> 
+  <a href="#" onclick="w3_close()" class="w3-padding w3-hover-white">Ch. 8 - Earth's Atmosphere </a> 
+  <br>
+</nav>
+  
+
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-red w3-xlarge w3-animate-left w3-padding">
+  <a href="javascript:void(0)" class="w3-btn w3-red   w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Sneaky Smart</span>
+</header>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:330px;margin-right:30px">
+
+   <!-- Small Business -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Science</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  
+ <div class="w3-card-12 w3-margin" style="" id="timeline">
+  <div class="w3-row">
+    <div class="w3-container w3-text-white w3-third">
+      <img src="./img/timeline.png" alt="" style="max-width:250px; max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">Geologic Timeline</h3>
+      <h4 class="w3-text-grey">Overview</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <h2 class="w3-padding">Important Milestones</h2>    
+      <p class="w3-padding">4.567 Ga (gigaannum: billion years ago): Solar system formation</p>    
+      <p class="w3-padding">4.54 Ga: Accretion of Earth</p>    
+      <p class="w3-padding">~4 Ga: End of Late Heavy Bombardment, first life</p>    
+      <p class="w3-padding">~3.5 Ga: Start of photosynthesis</p>    
+      <p class="w3-padding">~2.3 Ga: Oxygenated atmosphere, first snowball Earth</p>    
+      <p class="w3-padding">730–635 Ma (megaannum: million years ago): second snowball Earth</p>    
+      <p class="w3-padding">542 ± 0.3 Ma: Cambrian explosion – vast multiplication of hard-bodied life; first abundant fossils; start of the Paleozoic</p>    
+      <p class="w3-padding">~380 Ma: First vertebrate land animals</p>    
+      <p class="w3-padding">250 Ma: Permian-Triassic extinction – 90% of all land animals die; end of Paleozoic and beginning of Mesozoic</p>          
+      <p class="w3-padding">66 Ma: Cretaceous–Paleogene extinction – Dinosaurs die; end of Mesozoic and beginning of Cenozoic</p>    
+      <p class="w3-padding">7 Ma: First hominins appear</p>    
+      <p class="w3-padding">3.9 Ma: First Australopithecus, direct ancestor to modern Homo sapiens, appear</p>    
+      <p class="w3-padding">200 ka (kiloannum: thousand years ago): First modern Homo sapiens appear in East Africa</p>       
+      <p class="w3-padding"><a href="https://en.wikipedia.org/wiki/Geology#Geologic_time" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+
+  <br>
+  
+  <div class="w3-card-12 w3-margin" style="" id="earth1">
+  <div class="w3-row">
+    <div class="w3-container w3-text-white w3-third">
+      <img src="./img/science1.gif" alt="" style="max-width:250px; max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">History of the Earth, Part 1</h3>
+      <h4 class="w3-text-grey">Chapter 1</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <p class="w3-padding">The universe is about 14 billion years old, Earth is 4.54 billion years old, and the first modern Homo sapien appeared only 200,000 years ago.</p>    
+      <p class="w3-padding">The solar system was formed from a rotating cloud of interstellar dust and gas (hydrogen and helium) called the solar nebula. The formation of Earth took about 20 million years. </p>    
+      <p class="w3-padding">Earth's history is divided into 4 eons, each of at least a half billion years.Those eons are further subdivided into 10 total eras, which last several hundred million years.</p>    
+      <p class="w3-padding">The first eon, called Hadaen, lasted 500 million years, and is significant for a period of intense meteorite impacts, called Late Heavy Bombardment.</p>    
+      <p class="w3-padding">The giant impact hypothesis proposes that the Moon originated after a body the size of Mars struck the proto-Earth a glancing blow.</p>    
+      <p class="w3-padding"><a href="http://en.wikipedia.org/wiki/Geology#Geologic_time" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+
+  <br>
+  
+  <div class="w3-card-12 w3-margin" style="" id="earth2">
+  <div class="w3-row">
+    <div class="w3-container w3-third " >
+      <img src="./img/science2.png" alt="" style="max-width:250px;max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">History of the Earth, Part 2</h3>
+      <h4 class="w3-text-grey">Chapter 2</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <p class="w3-padding">Earth's 2nd eon, Archean, lasted about 1.5 billion years, from 4 - 2.5 billion years ago.</p>    
+      <p class="w3-padding">Rains created the oceans, and by the start of the Archean eon they already covered the Earth. </p>    
+      <p class="w3-padding">The Earth of the early Archean may have supported a tectonic regime unlike that of the present. </p>    
+      <p class="w3-padding">Life may have started by a series of chemical reactions that produced simple organic compounds: An experiment in 1953 by Stanley Miller and Harold Urey showed that such molecules could form in an atmosphere of water, methane, ammonia and hydrogen with the aid of sparks to mimic the effect of lightning.</p>    
+      <p class="w3-padding">Current phylogenetic evidence suggests that the last universal ancestor (LUA) lived during the early Archean eon, perhaps 3.5 Ga or earlier.[81][82] This LUA cell is the ancestor of all life on Earth today. It was probably a prokaryote, possessing a cell membrane and probably ribosomes, but lacking a nucleus or membrane-bound organelles such as mitochondria or chloroplasts.</p>    
+      <p class="w3-padding"><a href="https://en.wikipedia.org/wiki/Archean" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+
+  <br>
+  
+  <div class="w3-card-12 w3-margin" style="" id="earth3">
+  <div class="w3-row">
+    <div class="w3-container w3-third " >
+      <img src="./img/science3_1.png" alt="" style="max-width:250px;max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">History of the Earth, Part 3</h3>
+      <h4 class="w3-text-grey">Chapter 3</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <p class="w3-padding">Earth's 3rd eon, Proterozoic, lasted about 2 billion years, from 2.5 billion to 4 - 542 million years ago.</p>    
+      <p class="w3-padding">The evolution of photosynthesis made it possible for cells to manufacture their own food. </p>    
+      <p class="w3-padding">The first the first proto-mitochondrion may have been formed this way: A bacterial cell related to today’s Rickettsia,[93] which had evolved to metabolize oxygen, entered a larger prokaryotic cell, which lacked that capability, and the smaller cell survived inside the larger cell.  The smaller cell replicated inside the larger one. Soon, a stable symbiosis developed between the large cell and the smaller cells inside it.  </p>    
+      <p class="w3-padding">About 1000 to 830 Ma, most continental mass was united in the supercontinent Rodinia.After the break-up of Rodinia about 800 Ma, the continents may have formed another short-lived supercontinent, Pannotia, around 550 Ma.</p>    
+      <p class="w3-padding">The end of the Proterozoic saw at least two Snowball Earths, so severe that the surface of the oceans may have been completely frozen. This happened about 716.5 and 635 Ma, in the Cryogenian period.</p>    
+      <p class="w3-padding"><a href="http://en.wikipedia.org/wiki/History_of_the_Earth#Proterozoic_Eon" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div class="w3-card-12 w3-margin" style="" id="earth4">
+  <div class="w3-row">
+    <div class="w3-container w3-third " >
+      <img src="./img/science4_1.png" alt="" style="max-width:250px;max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">History of the Earth, Part 4</h3>
+      <h4 class="w3-text-grey">Chapter 4</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <p class="w3-padding">The Phanerozoic is the current eon on Earth, which started approximately 542 million years ago. It consists of three eras: The Paleozoic, Mesozoic, and Cenozoic, and is the time when multi-cellular life greatly diversified into almost all of the organisms known today.</p>    
+      <p class="w3-padding">The Paleozoic era was the first and longest of the eon, lasting about 300 million years.  It featured the Cambrian Explosion - a period of accelerated evolution, introducing fish and hard bodied animals. </p>    
+      <p class="w3-padding">Oxygen accumulation from photosynthesis resulted in the formation of an ozone layer that absorbed much of the Sun’s ultraviolet radiation, meaning unicellular organisms that reached land were less likely to die.</p>    
+      <p class="w3-padding">Around 380 to 375 Ma, the first tetrapods evolved from fish. It is thought that perhaps fins evolved to become limbs which allowed the first tetrapods to lift their heads out of the water to breathe air.</p>    
+      <p class="w3-padding">Pangaea was a supercontinent that existed during the late Paleozoic and early Mesozoic eras, forming approximately 300 million years ago. It began to break apart around 200 million years ago</p>    
+      <p class="w3-padding"><a href="http://en.wikipedia.org/wiki/History_of_the_earth#Phanerozoic_Eon" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+
+    <br>
+
+  <div class="w3-card-12 w3-margin" style="" id="mesozoic">
+  <div class="w3-row">
+    <div class="w3-container w3-third " >
+      <img src="./img/science5.jpg" alt="" style="max-width:250px;max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">Mesozoic Era</h3>
+      <h4 class="w3-text-grey">Chapter 5</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <p class="w3-padding">The Phanerozoic is the current eon on Earth, which started approximately 542 million years ago. It consists of three eras: The Paleozoic, Mesozoic, and Cenozoic, and is the time when multi-cellular life greatly diversified into almost all of the organisms known today.</p>    
+      <p class="w3-padding">The Mesozoic era began in the wake of the Permian–Triassic extinction event, the largest well-documented mass extinction in Earth's history, and ended with the Cretaceous–Paleogene extinction event, another mass extinction which is known for having killed off non-avian dinosaurs, as well as other plant and animal species. </p>    
+      <p class="w3-padding">The P-Tr extinction event is the Earth's most severe known extinction event, with up to 96% of all marine species and 70% of terrestrial vertebrate species becoming extinct. The recovery of life after the event may have taken 10 million years.</p>    
+      <p class="w3-padding">The era witnessed the gradual rifting of the supercontinent Pangaea into separate landmasses that would eventually move into their current positions.</p>    
+      <p class="w3-padding">Birds first appeared in the Jurassic, having evolved from a branch of theropod dinosaurs. The first mammals also appeared during the Mesozoic, but would remain small—less than 15 kg (33 lb)—until the Cenozoic.</p>    
+      <p class="w3-padding"><a href="http://en.wikipedia.org/wiki/Mesozoic" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+
+    <br>
+
+  <div class="w3-card-12 w3-margin" style="" id="cenozoic">
+  <div class="w3-row">
+    <div class="w3-container w3-third " >
+      <img src="./img/cenozoic.jpg" alt="" style="max-width:250px;max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">Cenozoic Era</h3>
+      <h4 class="w3-text-grey">Chapter 6</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <p class="w3-padding">The Phanerozoic is the current eon on Earth, which started approximately 542 million years ago. It consists of three eras: The Paleozoic, Mesozoic, and Cenozoic, and is the time when multi-cellular life greatly diversified into almost all of the organisms known today.</p>    
+      <p class="w3-padding">The Cenozoic Era began 65 million years ago and continues today. It is also known as the Age of Mammals, because the extinction of many groups allowed mammals to greatly diversify.</p>    
+      <p class="w3-padding">The era begins as the dinosaurs die in an extinction event. It is generally believed that the K–Pg extinction was triggered by a massive comet/asteroid impact and its catastrophic effects on the global environment, including a lingering impact winter that made it impossible for plants and plankton to carry out photosynthesis.</p>    
+      <p class="w3-padding">The Cenozoic is divided into three periods: The Paleogene, Neogene, and Quaternary.</p>    
+      <p class="w3-padding">Modern humans (Homo sapiens) are believed to have originated around 200,000 years ago or earlier in Africa; the oldest fossils date back to around 160,000 years ago.</p>    
+      <p class="w3-padding"><a href="http://en.wikipedia.org/wiki/Cenozoic" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+
+    <br>
+
+  <div class="w3-card-12 w3-margin" style="" id="platetectonics">
+  <div class="w3-row">
+    <div class="w3-container w3-third " >
+      <img src="./img/plate.png" alt="" style="max-width:250px;max-height:250px">
+    </div>
+    
+    <div class="w3-container w3-rest ">
+      <br/>
+      <h3 class="">Plate Tectonics</h3>
+      <h4 class="w3-text-grey">Chapter 7</h4>
+      <h5 class="w3-text-grey">From Wikipedia</h5>
+    </div>
+    </div>
+    <div class="w3-row">
+      <p class="w3-padding">Plate tectonics is a scientific theory describing the large-scale motion of 7 large plates and the movements of a larger number of smaller plates of the Earth's lithosphere, over the last hundreds of millions of years. </p>    
+      <p class="w3-padding">The theoretical model builds on the concept of continental drift, an idea developed during the first few decades of the 20th century. The geoscientific community accepted plate-tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.</p>    
+      <p class="w3-padding">Tectonic plates are composed of oceanic lithosphere and thicker continental lithosphere, each topped by its own kind of crust.</p>    
+      <p class="w3-padding">Plate movement is thought to be driven by a combination of the motion of the seafloor away from the spreading ridge and drag, with downward suction, at the subduction zones. Another explanation lies in the different forces generated by tidal forces of the Sun and Moon.</p>    
+      <p class="w3-padding">The key principle of plate tectonics is that the lithosphere exists as separate and distinct tectonic plates, which ride on the fluid-like (visco-elastic solid) asthenosphere. Plate motions range up to a typical 10–40 mm/year (Mid-Atlantic Ridge; about as fast as fingernails grow), to about 160 mm/year (Nazca Plate; about as fast as hair grows).</p>    
+      <p class="w3-padding"><a href="https://en.wikipedia.org/wiki/Plate_tectonics" class=" w3-padding w3-grey w3-btn">Wikipedia ></a></p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- End page content -->
+</div>
+<br/>
+<br/>
+<!-- W3.CSS Container -->
+
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script>  
+  
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+  
+</script>
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46837632-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  
+  
+
+</body>
+</html>

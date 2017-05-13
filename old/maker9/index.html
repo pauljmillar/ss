@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<title>Sneaky Smart</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Sneaky Smart - get smarter by checking twitter."/>
+<meta property="og:url" content="http://www.sneakysmart.co/"/>
+<meta property="og:description" content="Things you should have leared in high school - tweeted: science, math, geography, history, and the arts"/>
+<meta property="og:site_name" content="Sneaky Smart - get smarter by checking twitter."/>
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="/img/ssfavicon.png" type="image/x-icon"/>
+
+  <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/trees.png");
+    min-height: 100%;
+}
+.bgimg2  {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./img/phone_train_station.jpg")  
+}
+.w3-navbar li a {
+    padding: 16px;
+    float: left;
+}
+.w3-badge {height:13px;width:13px;padding:0;cursor:pointer}
+    
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  
+  <div class="w3-bar w3-large"  id="myNavbar" style="color:#fff; padding-top:10px">
+
+    <a href="#home" class="w3-button w3-left w3-bar-item w3-xlarge w3-hover-none" style="font-weight:900;" >SNEAKY SMART</a>
+    <!-- Right-sided navbar links -->
+      <a class="w3-bar-item w3-right w3-hide-small w3-button w3-round" href="https://sneakysmart.tumblr.com">blog</a>
+      <a class="w3-bar-item w3-right w3-hide-small w3-button w3-round" href="#contact">contact</a>
+      <a class="w3-bar-item w3-right w3-hide-small w3-button w3-round" href="/lessons/geography">material</a>
+      <a class="w3-bar-item w3-right w3-hide-small w3-button w3-round" href="#about">about</a>
+
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+      <a href="javascript:void(0)" class="w3-bar-item w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars w3-padding-right w3-padding-left w3-xlarge"></i>
+      </a>
+    <h1 class="w3-center"><b></b></h1>
+</div>
+</div>
+
+<!-- Sidenav on small screens when clicking the menu icon -->
+<nav class="w3-sidenav w3-white w3-card-2 w3-animate-right w3-hide-medium w3-hide-large" style="z-index:3;display:none; right:0" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()">about</a>
+  <a href="/lessons/geography" onclick="w3_close()">material</a>
+  <a href="#contact" onclick="w3_close()">contact</a>
+  <a href="https://sneakysmart.tumblr.com" onclick="w3_close()">blog</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 mySlides w3-display-container " id="home">
+  <div class="w3-display-middle  w3-center w3-padding-large w3-text-white">
+    <span class="w3-jumbo w3-hide-small w3-animate-opacity">Get smart(er) checking twitter.</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium w3-animate-opacity">Get smart(er) checking twitter.</span><br>
+    <div class="w3-center">
+      <div class="w3-bar">    
+        <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fsneakysmart.co%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=sneakysmart&tw_p=followbutton" class="w3-btn  w3-round  w3-blue w3-large  w3-margin"  style=""><i class="fa fa-twitter "></i>&nbsp;Follow @sneakysmart</a>
+      </div>
+    </div>
+  </div> 
+
+  <div class="w3-display-bottomleft w3-padding-jumbo w3-text-white w3-xxlarge">
+  <a href="https://sneakysmart.tumblr.com/" style="text-decoration:none" class="fa fa-tumblr w3-hover-text-blue "></a>
+  <a  href="https://twitter.com/sneakysmart" style="text-decoration:none" class="fa fa-twitter w3-hover-text-blue"></a>
+  <a href="https://facebook.com/sneakysmart" style="text-decoration:none" class="fa fa-facebook w3-hover-text-blue"></a> 
+  </div>
+</header>
+
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  
+ 
+  
+<!-- About Section -->
+  <div class="w3-row" id="startchange">
+    <div class="w3-col" style="width:15%">&nbsp;</div>
+    <div class="w3-col" style="width:70%">
+
+      <div class="w3-container w3-padding-128" id="about">
+  <h3 class="w3-center">Stuff you should have learned in high school</h3>
+  <p class="w3-center w3-large"></p>
+  <p class="w3-center ">We were exposed to a lot in high school. If you're like us, you don't remember much.  Our solution to this problem, like all problems, is to check twitter more.</p>
+  <p class="w3-center ">Throughout the day we're tweeting highlights to lessons on math, science, geography, history, and the arts.  While you have a minute during the day, read our highlights.  If you want to dig deeper, follow the links back to Wikipedia. It's that simple. </p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <i class="fa fa-book w3-margin-bottom w3-jumbo w3-center w3-hover-text-blue "></i>
+      <p class="w3-large">History</p>
+      <p>The lessons start with the history of earth and move into the great civilizations of the world.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-flask w3-margin-bottom w3-jumbo w3-hover-text-blue"></i>
+      <p class="w3-large">Science</p>
+      <p>Sciene lessons cover earth science, biology, chemistry, physics, and technology.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-calculator w3-margin-bottom w3-jumbo w3-hover-text-blue"></i>
+      <p class="w3-large">Math</p>
+      <p>Math via twitter can get pretty heavy, click through to dig deeper: algebra, geometry, statistics, calculus.</p>
+    </div>
+    </div>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <i class="fa fa-pencil w3-margin-bottom w3-jumbo w3-center w3-hover-text-blue "></i>
+      <p class="w3-large">The Arts</p>
+      <p>Lessons will cover literature, theater, art history, the classics, and world religions.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-globe w3-margin-bottom w3-jumbo w3-hover-text-blue"></i>
+      <p class="w3-large">Geography</p>
+      <p>Each lesson covers highlights of one of the 196 countries.</p>
+    </div>
+    <div class="w3-third">
+      <a href="/lessons/geography" class="fa fa-arrow-right w3-margin-bottom w3-jumbo w3-hover-text-blue" style="text-decoration:none"></a>
+      <p class="w3-large">View Lessons</p>
+      <p>See the highlights of chapters we've covered so far:</p>
+    </div>
+    </div>
+</div>
+    </div>  
+  <div class="w3-col" style="width:15%"></div>
+  </div>
+  
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey w3-padding-64" id="services">
+  <div class="w3-row-padding">
+     <div class="w3-col m6">
+ <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Dinosaurs?src=hash">#Dinosaurs</a> roamed the Earth between 230 and 66 million years ago. <a href="https://twitter.com/hashtag/ss?src=hash">#ss</a> <a href="https://twitter.com/hashtag/JurassicWorld2?src=hash">#JurassicWorld2</a> <a href="https://twitter.com/hashtag/prettyold?src=hash">#prettyold</a><a href="https://t.co/0tDw4qnJ3q">https://t.co/0tDw4qnJ3q</a></p>&mdash; sneakysmart (@sneakysmart) <a href="https://twitter.com/sneakysmart/status/844194391082192899">March 21, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    </div>
+    <div class="w3-col m6">
+      <h4>You're busy, we get it.</h4>
+      <h4>But take a minute to stretch your brain.</h4>
+      <h4>If you have feedback, let us know.</h4>
+      <br/>
+      <p><a href="#contact" class="w3-btn w3-blue">Email</a></p>
+    </div>
+
+  </div>
+</div>
+  
+
+  
+  <!-- Email signup -->
+<div class="w3-display-container w3-white w3-padding-64" id="supplies" style="height:400px">
+  <div class="w3-display-middle" >
+    <div class="w3-hide-small w3-xxlarge" style="text-align:center">Or, if you'd prefer a weekly digest email:</div>
+    <div class="w3-hide-medium w3-hide-large w3-large" style="text-align:center">Or, if you'd prefer a weekly digest email:</div>
+     <form name="htmlform" method="post" action="form_sender.php" class="w3-container w3-margin-top w3-hide-small" style="text-align:center">
+        <input name="email" class="w3-input w3-xxlarge w3-border-blue w3-border" placeholder="sign up here" type="text" style="width:80%; float:left; padding-top:2px;"><input type="submit" value="go" class="w3-btn w3-blue w3-xxlarge " style="width:20%; float:left;"/>
+    </form>
+    <form name="htmlform" method="post" action="form_sender.php" class="w3-container w3-margin-top w3-hide-large w3-hide-medium" style="text-align:center">
+       <input name="email" class="w3-input w3-medium w3-border-blue w3-border" placeholder="sign up here" type="text" style="width:100%;  padding-top:2px;"><input type="submit" value="go" class="w3-btn-block w3-blue w3-medium w3-margin-top" />
+    </form>  
+  </div>
+</div>  
+  
+<!--  banner -->
+<div class="w3-display-container w3-padding-128  bgimg2" >
+  <div class=" w3-text-white w3-center">
+    <h1 class="w3-hide-large">"Hmph," while you wait for the train.</h1><br>
+     <h1 class="w3-jumbo w3-hide-small w3-hide-medium ">"Hmph," while you wait for the train.</h1><br>
+  </div>
+</div>
+
+  
+
+  
+
+
+
+<!-- Contact Section -->
+<div class="w3-display-container w3-white w3-padding-64" id="contact" style="height:700px">
+  <div class="w3-display-middle" >
+    <div class="w3-hide-small w3-xxlarge" style="text-align:center">Feedback, comments, let us know:</div>
+    <div class="w3-hide-medium w3-hide-large w3-large" style="text-align:center">Feedback, comments, let us know:</div>
+     <form name="htmlform" method="post" action="form_sender.php" class="w3-container w3-margin-top w3-hide-small" style="text-align:center">
+	    		<input type="text" name="name" class="w3-input w3-margin w3-xlarge w3-border-blue w3-border" placeholder="YOUR NAME" required>
+          <input name="email" class="w3-input w3-xlarge w3-margin w3-border-blue w3-border" placeholder="EMAIL" type="text" style="">
+	    		<textarea name="comments" cols="1" rows="3" class="w3-input w3-xlarge w3-margin w3-border-blue w3-border" placeholder="YOUR MESSAGE" required ></textarea>
+          <input type="submit" value="go" class="w3-btn-block w3-blue w3-margin w3-large w3-margin-top" />
+    </form>
+
+    <form name="htmlform" method="post" action="form_sender.php" class="w3-container w3-margin-top w3-hide-large w3-hide-medium" style="text-align:center">
+	    		<input type="text" name="name" class="w3-input w3-large w3-margin w3-border-blue w3-border" placeholder="YOUR NAME" required>
+          <input name="email" class="w3-input w3-large w3-border-blue w3-border w3-margin " placeholder="EMAIL" type="text" style="">
+	    		<textarea name="comments" cols="1" rows="3" class="w3-input w3-large w3-border-blue w3-border w3-margin" placeholder="YOUR MESSAGE" required ></textarea>
+          <input type="submit" value="go" class="w3-btn-block w3-blue w3-large w3-margin-top w3-margin" />
+    </form>  
+  </div>
+</div>  
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+   <div class="w3-xlarge w3-section">
+  <a href="https://sneakysmart.tumblr.com/" style="text-decoration:none" class="fa fa-tumblr w3-hover-text-blue "></a>
+  <a  href="https://twitter.com/sneakysmart" style="text-decoration:none" class="fa fa-twitter w3-hover-text-blue"></a>
+  <a href="https://www.facebook.com/sneakysmart/" style="text-decoration:none" class="fa fa-facebook w3-hover-text-blue"></a> 
+  </div>
+  <p>© Sneaky Smart, 2017
+  </p>
+</footer>
+ 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+  
+//to show navbar after scrolling down
+  $(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#startchange');
+   var offset = startchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('#myNavbar').css('background-color', '#f0f0f0');
+          $('#myNavbar').css('color', '#000');
+       } else {
+          $('#myNavbar').css('background-color', 'transparent');
+          $('#myNavbar').css('color', 'white');
+       }
+   });
+});  
+
+
+
+
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+<script> 
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});  
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46837632-1', 'auto');
+  ga('send', 'pageview');
+
+</script>   
+
+</body>
+</html>
